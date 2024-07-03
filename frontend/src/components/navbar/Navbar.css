@@ -64,7 +64,7 @@
   .navbar-right {
     gap: 30px;
   }
-  .navbar-search-img {
+  .navbar-right img {
     width: 22px;
   }
   .navbar-right button {
@@ -82,7 +82,7 @@
   .navbar-right {
     gap: 20px;
   }
-  .navbar-search-img {
+  .navbar-right img {
     width: 20px;
   }
   .navbar-right button {
