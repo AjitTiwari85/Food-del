@@ -3,6 +3,7 @@ import "./Navbar.css";
 import { assets } from "../../assets/frontend_assets/assets";
 import { Link, useNavigate } from "react-router-dom";
 import { StoreContext } from "../../context/StoreContext";
+import newLogo from "../../assets/new_logo.png";
 
 const Navbar = ({ setShowLogin }) => {
   const [menu, setMenu] = useState("menu");
@@ -20,7 +21,7 @@ const Navbar = ({ setShowLogin }) => {
   return (
     <div className="navbar">
       <Link to="/">
-        <img src={assets.logo} alt="" className="logo" />
+        <img src={newLogo} alt="" className="logo" />
       </Link>
       <ul className="navbar-menu">
         <Link

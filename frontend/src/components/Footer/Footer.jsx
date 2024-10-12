@@ -1,13 +1,14 @@
 import React from "react";
 import "./Footer.css";
 import { assets } from "../../assets/frontend_assets/assets";
+import newLogo from "../../assets/update_logo.png";
 
 const Footer = () => {
   return (
     <div className="footer" id="footer">
       <div className="footer-content">
         <div className="footer-content-left">
-          <img src={assets.logo} alt="" />
+          <img src={newLogo} alt="" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
             corporis. Est eos saepe et illum eum, iure vero odit nulla!
